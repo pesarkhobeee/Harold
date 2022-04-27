@@ -1,0 +1,11 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "manifest_version" : 3,
+   "description": "Lets build a more mindful growth path by following simple daily practices.",
+   "name": "Today I Learned",
+   "offline_enabled": true,
+   "short_name": "TIL",
+   "version": "0.1.0"
+}
