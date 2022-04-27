@@ -1,1 +1,13 @@
 /* Extension Style */
+#popup_id {
+  width: 600px;
+}
+
+#popup_textarea {
+  width: 100%;
+  height: 300px;
+}
+
+#popup_button {
+  margin: 5px 0;
+}
