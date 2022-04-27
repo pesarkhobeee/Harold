@@ -2,13 +2,25 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body id="popup_id">
-        <h3>What did you learn today? :)</h3>
-        <form>
-            <textarea id="popup_textarea">
-
+    <body id="popup_window">
+        <div id="popup_settings_icon">
+            &#9881;
+        </div>
+        <div id="popeup_note_window">
+            <h3>What did you learn today? :)</h3>
+            <textarea id="popup_note_textarea">
             </textarea>
-            <button id="popup_button" type="submit">Send the PR to Github! </button>
-        </form>
+            <button id="popup_note_button" type="button">Let's prepare the PR for Github ;) </button>
+        </div>
+        <dive id="popeup_setting_window">
+            <h3>Settings:</h3>
+            <label for="github_username">Your Github Username:</label><br>
+            <input type="text" id="github_username" name="github_username"><br>
+            <label for="github_repository">Your Github Repository:</label><br>
+            <input type="text" id="github_repository" name="github_repository"><br>
+            <br>
+            <button id="settings_button" type="button">Save the setting</button>
+        </dive>
+        <script src="popup_settings.js" ></script>
     </body>
 </htam>

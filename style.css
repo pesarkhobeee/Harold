@@ -1,13 +1,26 @@
 /* Extension Style */
-#popup_id {
+#popup_window {
   width: 600px;
 }
 
-#popup_textarea {
+#popup_note_textarea {
   width: 100%;
   height: 300px;
 }
 
-#popup_button {
+#popup_note_button {
   margin: 5px 0;
+  cursor: pointer;
+}
+
+#popup_settings_icon {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#popeup_setting_window  {
+  display: none;
 }
