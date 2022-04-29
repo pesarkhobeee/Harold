@@ -1,27 +1,33 @@
-![Screenshot1](Screenshot1.png)
+# Harold
 
-![Screenshot2](Screenshot2.png)
+* Can you recall what you learned during the last weeks?
+* What was the most interesting thing that you came across? Blog posts, ideas, code snippets, CLI commands, ....
+* Wouldn't it be better to have a weekly overview?
 
-# FocusClimb
+Get to know an easily accessible and smart sticky-note tool aware of your daily updates and weekly overviews. Meet Harold.
 
-Replace new tab page with a personal dashboard featuring, desired pictures and Pomodoro timer. You can install the latest stable version of it via the links that you can find in [FocusClimb.com](https://focusclimb.com/) official website.
+![Harold](harold.jpg)
+
+Harold, the emotional sticky-note tool which encourages you to keep note of your daily discoveries and be more mindful of your digital journey and growth path.
+
+### In case you found Harold sad:
+
+![Sad](sad_harold.png)
+
+Just add your daily note to the sticker.
+
+### To make Harold supper happy:
+
+![Happy](happy_harold.png)
+
+Go to your desired website to save your notes for the long term, you will find more about this on the setting page.
+
+
+But most of the time you should find him without any emotion
+
+![Normal](normal_harold.png)
 
 ## Development
-
-### Firefox
-
-To develop and test this plugin on Firefox please clone this repository on your machine and copy manifest.json from firefox folder to the root folder:
-```
-git clone git@github.com:pesarkhobeee/focusClimb.git
-cd focusClimb
-cp firefox/manifest.json .
-```
-then inside of Firefox address bar go to
-```about:debugging#/runtime/this-firefox```
-Click on `Load Temporary Add-on` and choose manifest.json file, now you can inspect, test, and reload the plugin. 
-
-### Google Chrome
-
 
 To develop and test this plugin on Google Chrome please clone this repository on your machine and copy manifest.json from chrome folder to the root folder:
 ```

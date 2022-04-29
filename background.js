@@ -6,6 +6,8 @@ chrome.alarms.create('haroldAlarm', { delayInMinutes: 1, periodInMinutes: 60 });
 chrome.alarms.onAlarm.addListener(function(alarm){
 if (alarm.name === 'haroldAlarm') {
     try {
+        console.log("haroldAlarm");
+        console.log(new Date().toISOString());
         chrome.storage.sync.get(['popup_note_last_saved_date'], function(result) {
             let popup_note_last_saved_date = "";
             popup_note_last_saved_date = result.popup_note_last_saved_date;
