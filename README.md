@@ -29,12 +29,7 @@ But most of the time you should find him without any emotion
 
 ## Development
 
-To develop and test this plugin on Google Chrome please clone this repository on your machine and copy manifest.json from chrome folder to the root folder:
-```
-git clone git@github.com:pesarkhobeee/focusClimb.git
-cd focusClimb
-cp chrome/manifest.json .
-```
+To develop and test this plugin on Google Chrome please clone this repository on your machine.
 then inside of Firefox address bar go to
 ```chrome://extensions```
 Click on `Load unpacked` and choose manifest.json file, now you can see the details, errors and test the extention.
