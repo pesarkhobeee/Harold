@@ -1,6 +1,6 @@
 /* Extension Style */
 #popup_window {
-  width: 600px;
+  width: 700px;
 }
 
 #popup_note_textarea {
@@ -11,6 +11,7 @@
 #popup_note_button {
   margin: 5px 0;
   cursor: pointer;
+  visibility: hidden;
 }
 
 #popup_settings_icon {

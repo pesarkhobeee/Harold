@@ -3,7 +3,7 @@
       "default_popup": "popup.html"
    },
    "manifest_version" : 3,
-   "description": "Harold, the emotional sticky note which encourages you to keep track of your daily discoveries and be more mindful about your digital diet!",
+   "description": "Harold, the emotional sticky note which encourages you to keep note of your daily discoveries and be more mindful.",
    "icons": {
       "180": "images/icon-180.png",
       "120": "images/icon-120.png",
