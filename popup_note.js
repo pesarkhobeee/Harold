@@ -1,6 +1,5 @@
 function goToGithub(){
-    var url = "https://github.com/" + github_username + "/" + github_repository + "/edit/main/README.md"
-    window.open(url, '_blank').focus();
+    window.open(long_term_saving_location, '_blank').focus();
     chrome.action.setBadgeBackgroundColor({color: "green"});
     chrome.action.setBadgeText({text: ':)'});
 }
