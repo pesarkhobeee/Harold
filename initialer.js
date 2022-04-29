@@ -15,6 +15,17 @@ function initialer() {
             document.getElementById("popup_note_textarea").value = result.popup_note_textarea;
         }
     });
+
+    chrome.storage.sync.get(['harold_them'], function(result) {
+        if(result.harold_them) {
+            document.getElementById("harold_them").checked = true;
+            document.getElementById("popup_window").style.background = "url('images/harold.jpg')";
+            document.getElementById("popup_window").style.color = "black";
+        } else {
+            document.getElementById("popup_window").style.background = "";
+            document.getElementById("popup_window").style.color = "white";
+        }
+    });
     
     chrome.action.setBadgeText({text: ''}); 
 }

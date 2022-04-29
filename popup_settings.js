@@ -21,6 +21,11 @@ function saveSetting() {
         console.log('long_term_saving_location is set to ' + long_term_saving_location);
     });
 
+    var harold_them = document.getElementById('harold_them').checked
+    chrome.storage.sync.set({"harold_them": harold_them}, function() {
+        console.log('harold_them is set to ' + harold_them);
+    });
+
     setting();
     initialer();
 }
