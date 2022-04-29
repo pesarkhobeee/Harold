@@ -15,3 +15,5 @@ chrome.storage.sync.get(['github_username'], function(result) {
 chrome.storage.sync.get(['popup_note_textarea'], function(result) {
     document.getElementById("popup_note_textarea").value = result.popup_note_textarea;
 });
+
+chrome.action.setBadgeText({text: ''}); 

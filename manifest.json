@@ -3,12 +3,20 @@
       "default_popup": "popup.html"
    },
    "manifest_version" : 3,
-   "description": "Lets build a more mindful growth path by following simple daily practices.",
-   "name": "Today I Learned",
+   "description": "Harold, the emotional sticky note which encourages you to keep track of your daily discoveries and be more mindful about your digital diet!",
+   "icons": {
+      "180": "images/icon-180.png",
+      "120": "images/icon-120.png",
+      "48": "images/icon-48.png"
+   },
+   "name": "Harold",
    "offline_enabled": true,
-   "short_name": "TIL",
-   "version": "0.1.0",
+   "version": "0.2.0",
+   "background": {
+      "service_worker": "background.js"
+    },
    "permissions": [
-      "storage"
+      "storage",
+      "alarms"
    ]
 }
