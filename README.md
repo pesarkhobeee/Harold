@@ -4,11 +4,12 @@
 * What was the most interesting thing that you came across? Blog posts, ideas, code snippets, CLI commands, ....
 * Wouldn't it be better to have a weekly overview?
 
-Get to know an easily accessible and smart sticky-note tool aware of your daily updates and weekly overviews. Meet Harold.
+Get to know an easily accessible and smart sticky-note tool aware of your daily updates and weekly overviews. Meet Harold:
 
 ![Harold](images/harold.jpg)
 
 Harold, the emotional sticky-note tool which encourages you to keep note of your daily discoveries and be more mindful of your digital journey and growth path.
+You can install it via [google chrome store](https://chrome.google.com/webstore/detail/harold/dghnpomoimjkalgddhcbgicdioppkbic?hl=en).
 
 ### In case you found Harold sad:
 

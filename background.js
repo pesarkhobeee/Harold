@@ -1,7 +1,7 @@
 console.log("Service worker started!");
 // https://developer.chrome.com/docs/extensions/reference/alarms/#type-AlarmCreateInfo
 // https://stackoverflow.com/questions/26883915/google-chrome-extension-alarm-at-specific-time
-chrome.alarms.create('haroldAlarm', { delayInMinutes: 1, periodInMinutes: 60 });
+chrome.alarms.create('haroldAlarm', { delayInMinutes: 1, periodInMinutes: 240 });
 
 chrome.alarms.onAlarm.addListener(function(alarm){
 if (alarm.name === 'haroldAlarm') {
